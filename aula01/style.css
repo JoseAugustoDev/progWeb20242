@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.vermelho, .branco, .preto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vermelho {
+    width: 100%;
+    height: 33%;
+    color: white;
+    background-color: red;
+}
+.branco {
+    width: 100%;
+    height: 33%;
+}
+
+.preto {
+    width: 100%;
+    height: 33%;
+    color: white;
+    background-color: black;
+}
+
