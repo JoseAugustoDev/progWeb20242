@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#nome {
+    padding: 1rem;
+    color: blue;
+}
+
+.info {
+    text-align: center;
+    width: 50%;
+    height: 10%;
+    background-color: aqua;
+}
