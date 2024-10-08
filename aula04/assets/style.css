@@ -12,6 +12,10 @@ body {
 
 }
 
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 #nome {
     padding: 1rem;
     color: blue;
@@ -20,7 +24,7 @@ body {
 .info {
     width: 80%;
     height: 10%;
-    background-color: lightblue;
+    background-color: rgb(216, 237, 232);
 }
 
 ol {
@@ -36,18 +40,18 @@ ol {
 
 h2:hover {
     color: white;
+    cursor: pointer;
     background-color: blue;
 }
 
 li {
     text-align: center;
     width: 80%;
-    margin: 1rem 0;
 }
 
 li > div > h2  {
     margin: 1rem    ;
-    background-color: lightblue;
+    background-color: rgb(216, 237, 232);
 }
 
 li > div > p {
