@@ -18,8 +18,45 @@ body {
 }
 
 .info {
-    text-align: center;
-    width: 50%;
+    width: 80%;
     height: 10%;
-    background-color: aqua;
+    background-color: lightblue;
+}
+
+ol {
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    list-style-type: upper-alpha;
+}
+
+h2:hover {
+    color: white;
+    background-color: blue;
+}
+
+li {
+    text-align: center;
+    width: 80%;
+    margin: 1rem 0;
+}
+
+li > div > h2  {
+    margin: 1rem    ;
+    background-color: lightblue;
+}
+
+li > div > p {
+    margin-bottom: 1rem;
+}
+
+.academico, .comp, .ss{
+    width: 100%;
+    padding: 1rem;
+    border: 2px dashed black;
+    background-color: lightgray;
 }
