@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(240, 91, 91);
+    background-color: rgb(51, 74, 204);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,11 +31,12 @@ nav, section, footer, img, header {
 
 header, footer {
     height: 30%;
-    display: flex;
+    color: white;
+    display: flex;  
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-color: yellow;
+    background-color: rgb(221, 52, 52);
 }
 
 nav {
@@ -60,11 +61,10 @@ li {
 }
 
 li:hover {
-    background-color: rgb(240, 91, 91);
     color: white;
+    background-color: rgb(231, 67, 108);
     font-weight: bolder;
 }
-
 
 section {
     margin: 1rem;
@@ -74,7 +74,8 @@ section {
     justify-content: center;
 }
 
-a {
+a:hover {
+    color: white;
     text-decoration: none;
 }
 
@@ -88,4 +89,19 @@ ul {
 
 .info li {
     width: 100%;
+}
+
+table {
+    width: 400px;
+    text-align: center;
+    background-color: rgb(168, 217, 236);
+}
+
+td {
+    border: 1px solid black;
+}
+
+td > img {
+    width: 50px;
+    height: 50px;
 }
