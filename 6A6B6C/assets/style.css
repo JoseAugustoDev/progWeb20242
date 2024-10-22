@@ -105,3 +105,34 @@ td > img {
     width: 50px;
     height: 50px;
 }
+
+/* Estilização da Página de Contato */
+
+.contato {
+    width: 50%;
+    height: 75%;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+fieldset {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 1rem;
+}
+
+.enviar {
+    padding: 1rem;
+}
